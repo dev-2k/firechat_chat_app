@@ -2,13 +2,13 @@ import firebase from 'firebase'
 import "firebase/storage"
 
 const firebaseApp = firebase.initializeApp({
-    apiKey: "AIzaSyCiicXeuMn6yiOaKMHDKKpy2Irn8yp_W3U",
-    authDomain: "doctorsdoor-3eae9.firebaseapp.com",
-    databaseURL: "https://doctorsdoor-3eae9-default-rtdb.firebaseio.com",
-    projectId: "doctorsdoor-3eae9",
-    storageBucket: "doctorsdoor-3eae9.appspot.com",
-    messagingSenderId: "859249511194",
-    appId: "1:859249511194:web:9083f72f8fc992da4b7aa3"
+    apiKey: "AIzaSyBVxWP2qI74TvCiPx80A3CDCRDoPgwc-Vc",
+    authDomain: "firechat-c1363.firebaseapp.com",
+    projectId: "firechat-c1363",
+    storageBucket: "firechat-c1363.appspot.com",
+    messagingSenderId: "979058163783",
+    appId: "1:979058163783:web:ea30bd0350c4e26f83b162",
+    measurementId: "G-GJQR1BX1WR"
 })
 
 const db = firebaseApp.firestore()
